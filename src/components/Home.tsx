@@ -8,7 +8,7 @@ function Home() {
     <div className="bg-black min-h-screen h-full">
       <Navbar />
       <Name />
-      <div className="py-18"></div>
+      <div className="py-22"></div>
       <HomeProjects />
       <Footbar />
     </div>
