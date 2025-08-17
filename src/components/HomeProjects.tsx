@@ -22,18 +22,26 @@ manage orders"
           path="https://github.com/kishan1735/laundry-ts"
         />
         <HomeProjectCard
-          image="/images/malware.png"
-          title="Windows Malware Analysis"
-          description="A Data Mining course project focused on classifying various types of windows malware"
-          path="https://github.com/skoriop/windows-malware-analysis"
+          image="/images/erp.png"
+          title="EEE IMS"
+          description="An Information Management Portal that helps faculties automate lot of operations like Course Handout Approval, Question Paper Review etc..."
+          path="https://github.com/bphcerp/Erp"
         />
         {visible ? (
-          <HomeProjectCard
-            image="/images/bits-bids.png"
-            title="Bits Bids"
-            description="An auctioning website that helps you buy and sell goods on campus."
-            path="https://github.com/kishan1735/bits-bids"
-          />
+          <>
+            <HomeProjectCard
+              image="/images/bits-bids.png"
+              title="Bits Bids"
+              description="An auctioning website that helps you buy and sell goods on campus."
+              path="https://github.com/kishan1735/bits-bids"
+            />
+            <HomeProjectCard
+              image="/images/malware.png"
+              title="Windows Malware Analysis"
+              description="A Data Mining course project focused on classifying various types of windows malware"
+              path="https://github.com/skoriop/windows-malware-analysis"
+            />
+          </>
         ) : (
           <></>
         )}
