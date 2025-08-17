@@ -51,7 +51,7 @@ manage orders"
         className="border-2 border-white p-2 text-center cursor-pointer hover:bg-white hover:text-black w-28 text-lg"
         onClick={() => setVisible((e) => !e)}
       >
-        See More
+        {visible ? "See Less" : "See More"}
       </button>
     </div>
   );
