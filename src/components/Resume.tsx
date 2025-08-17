@@ -12,7 +12,7 @@ function Resume() {
       <div className="w-fit bg-blue-400 mx-auto">
         <div className="text-white bg-black mx-auto text-center border-3 border-white w-fit font-bold py-2 px-4 mt-12 hover:-translate-1">
           <a
-            href="https://drive.google.com/uc?export=download&id=1LUanRRudH1oFgyWQew9Q1RVMdtX3rinA
+            href="https://drive.google.com/uc?export=download&id=1k1xMT2uBa86YPGuhR5FXBkpggSkrF6hB
 "
             target="_blank"
             className="text-2xl"
@@ -22,11 +22,11 @@ function Resume() {
         </div>
       </div>
 
-      <div className="text-3xl text-red-400 mx-auto text-center font-bold mt-8">
+      <div className="text-3xl text-red-400 mx-auto text-center font-bold mt-8 ml-2">
         Skills
       </div>
-      <div className="bg-blue-400 w-[19vw] mt-8 mx-156">
-        <ul className="text-white flex flex-col space-y-2 text-xl bg-black hover:-translate-1  border-4 border-white p-4 pl-16 w-[19vw]">
+      <div className="bg-blue-400 w-[19vw] mt-8 mx-auto">
+        <ul className="text-white flex flex-col space-y-2 text-xl bg-black hover:-translate-1  border-4 border-white p-4 pl-16 w-[22vw]">
           <li>&#8226; ReactJS</li>
           <li>&#8226; Typescript</li>
           <li>&#8226; NextJS</li>
